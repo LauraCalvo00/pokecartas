@@ -1,1 +1,39 @@
-/* Aquí va el CSS */
+*{font-family: 'Press Start 2P', cursive;}
+.card{
+    width: 260px;
+    height: 390px;
+    border-color: gold;
+    border-style: solid;
+    border-radius: 4%;
+    border-width: 4px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+.name{
+    display: inline;
+}
+.pstype{
+    display: inline;
+    float: right;
+}
+.plant{
+    background: radial-gradient(circle at center,#30b83b 75%, #1c4214 );
+}
+.imagenes{
+    background-image:url(./img/pokemon-background.png);
+    display: flex;
+    justify-content: center;
+}
+.margindown {
+    margin-bottom: 10px;
+}
+.water{
+    background: radial-gradient(circle at center, #0f7fcf 75%, #0a3786 )
+}
+.electric{
+    background: radial-gradient(circle at center, rgb(223, 196, 38), rgb(210, 182, 27));
+}
+.fire{
+    background: radial-gradient(circle at center, red, rgb(167, 0, 0));
+}
